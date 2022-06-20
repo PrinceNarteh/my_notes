@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884786128325",
+    "project_id": "my-personal-notes-6fd5c",
+    "storage_bucket": "my-personal-notes-6fd5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884786128325:android:49942053633062091f17ac",
+        "android_client_info": {
+          "package_name": "com.prinart.my_notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884786128325-n9euv5us3rbrusdk5561fmrhhbsnej9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGjyjGnjpHf5YcTvmxJouVgomCkPn3--Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884786128325-n9euv5us3rbrusdk5561fmrhhbsnej9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

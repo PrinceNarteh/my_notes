@@ -42,6 +42,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               decoration: const InputDecoration(
                 hintText: "Enter your email",
               ),
+              keyboardType: TextInputType.emailAddress,
             ),
             TextField(
               controller: _password,
