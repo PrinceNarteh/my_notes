@@ -1,5 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+
+import '../firebase_options.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);
@@ -59,7 +62,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 final email = _email.text;
                 final password = _password.text;
 
-                await FirebaseAuth.instance.createUserWithEmailAndPassword(
+                await Firebase.initializeApp(
+                  options: DefaultFirebaseOptions.currentPlatform,
+                );
+
+                final userCredential =
+                    await FirebaseAuth.instance.createUserWithEmailAndPassword(
                   email: email,
                   password: password,
                 );
